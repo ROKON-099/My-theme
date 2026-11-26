@@ -1,0 +1,9 @@
+<footer class="site-footer">
+ <div class="container footer-main"><div class="row g-4">
+  <div class="col-lg-4"><h3 class="footer-logo"><?php bloginfo('name'); ?></h3><p>Find your next favorite. Quality products and a thoughtful shopping experience.</p><div class="social-links"><a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a><a href="#" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a></div></div>
+  <div class="col-6 col-lg-2"><h5>Shop</h5><ul><li><a href="<?php echo esc_url(function_exists('wc_get_page_permalink')?wc_get_page_permalink('shop'):home_url('/shop')); ?>">All products</a></li><li><a href="<?php echo esc_url(home_url('/')); ?>">New arrivals</a></li><li><a href="<?php echo esc_url(home_url('/')); ?>">Collections</a></li></ul></div>
+  <div class="col-6 col-lg-2"><h5>Company</h5><ul><li><a href="<?php echo esc_url(home_url('/about')); ?>">About</a></li><li><a href="<?php echo esc_url(home_url('/contact')); ?>">Contact</a></li><li><a href="<?php echo esc_url(home_url('/blog')); ?>">Journal</a></li></ul></div>
+  <div class="col-lg-4"><h5>Customer care</h5><ul><li><a href="<?php echo esc_url(home_url('/faq')); ?>">FAQs</a></li><li><a href="<?php echo esc_url(home_url('/returns')); ?>">Returns</a></li><li><a href="<?php echo esc_url(home_url('/privacy-policy')); ?>">Privacy</a></li><li><a href="<?php echo esc_url(home_url('/terms')); ?>">Terms</a></li></ul></div>
+ </div></div>
+ <div class="footer-bottom"><div class="container d-flex flex-column flex-md-row justify-content-between gap-2"><span>© <?php echo esc_html(date('Y')); ?> <?php bloginfo('name'); ?>.</span><span>Secure checkout · Customer-first shopping</span></div></div>
+</footer><?php wp_footer(); ?></body></html>

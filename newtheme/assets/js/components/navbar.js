@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const nav=document.querySelector('#siteNav');if(nav){nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{if(window.innerWidth<992){const c=bootstrap.Collapse.getInstance(nav);if(c)c.hide()}}))}});

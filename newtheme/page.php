@@ -1,0 +1,1 @@
+<?php get_header(); ?><main class="container content-area py-5"><?php while(have_posts()):the_post(); ?><header class="page-heading"><span class="kicker"><?php bloginfo('name'); ?></span><h1><?php the_title(); ?></h1></header><article class="entry-content"><?php the_content(); ?></article><?php endwhile; ?></main><?php get_footer(); ?>

@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.woocommerce-MyAccount-navigation a').forEach(link=>link.classList.add('account-nav-link'));});

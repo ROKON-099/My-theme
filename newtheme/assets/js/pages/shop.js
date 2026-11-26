@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.woocommerce ul.products li.product').forEach(card=>card.classList.add('product-card-ready'));});

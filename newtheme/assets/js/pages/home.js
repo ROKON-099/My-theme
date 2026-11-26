@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const hero=document.querySelector('.hero-photo');if(hero)hero.classList.add('loaded');});

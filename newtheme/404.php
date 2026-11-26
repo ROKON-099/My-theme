@@ -1,0 +1,1 @@
+<?php get_header(); ?><main class="container text-center py-5 error-page"><span class="kicker">NOT FOUND</span><h1>404</h1><h2>We couldn't find that page.</h2><p>It may have moved or the link may be incorrect.</p><a class="btn btn-dark rounded-pill" href="<?php echo esc_url(home_url('/')); ?>">Return home</a></main><?php get_footer(); ?>

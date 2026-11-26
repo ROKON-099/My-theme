@@ -1,0 +1,3 @@
+<?php get_header(); ?>
+<main><?php get_template_part('template-parts/sections/hero');get_template_part('template-parts/sections/benefits');get_template_part('template-parts/sections/categories');get_template_part('template-parts/sections/products',null,array('title'=>'Featured products','shortcode'=>'[products limit="8" columns="4" orderby="popularity"]'));get_template_part('template-parts/sections/promo');get_template_part('template-parts/sections/products',null,array('title'=>'New arrivals','subtitle'=>'Fresh additions to our collection.','shortcode'=>'[products limit="4" columns="4" orderby="date"]'));get_template_part('template-parts/sections/newsletter'); ?></main>
+<?php get_footer(); ?>
